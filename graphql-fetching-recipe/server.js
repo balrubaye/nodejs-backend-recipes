@@ -9,7 +9,7 @@ app.use(graphQLHTTP({
     graphiql:true
 }));
 
-
-app.listen(4444, ()=>{
-    console.log('listenning ...');
+let port= 4445
+app.listen(port, ()=>{
+    console.log(`listenning ...${port}`);
 })
